@@ -13,6 +13,9 @@ int main(){
 
     cout << "hello world" << endl;
 
+    bird robin("robin");
+    cout << robin.get_seeds() << endl;
+
     return 0;
 
 }
